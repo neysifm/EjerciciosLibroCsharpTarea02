@@ -46,16 +46,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Capitulo05\Ejercicio_5.cs" />
     <Compile Include="Capitulo05\Factorial.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capitulo05\Factorial.Designer.cs">
       <DependentUpon>Factorial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Capitulo06\Ejercicios_1_2_3_4_y_5.cs" />
-    <Compile Include="Capitulo07\Ejercicios_1_2_y_5.cs" />
-    <Compile Include="Capitulo08\Ejercicios_3_y_5.cs" />
+    <Compile Include="Capitulo06\CalcularPromedio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitulo06\CalcularPromedio.Designer.cs">
+      <DependentUpon>CalcularPromedio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capitulo07\Agenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitulo07\Agenda.Designer.cs">
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capitulo07\Diccionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitulo07\Diccionario.Designer.cs">
+      <DependentUpon>Diccionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capitulo08\Hora_Y_Fecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitulo08\Hora_Y_Fecha.Designer.cs">
+      <DependentUpon>Hora_Y_Fecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capitulo08\OrdenAlfabetico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capitulo08\OrdenAlfabetico.Designer.cs">
+      <DependentUpon>OrdenAlfabetico.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +92,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Capitulo05\Factorial.resx">
       <DependentUpon>Factorial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capitulo06\CalcularPromedio.resx">
+      <DependentUpon>CalcularPromedio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capitulo07\Agenda.resx">
+      <DependentUpon>Agenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capitulo07\Diccionario.resx">
+      <DependentUpon>Diccionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capitulo08\Hora_Y_Fecha.resx">
+      <DependentUpon>Hora_Y_Fecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capitulo08\OrdenAlfabetico.resx">
+      <DependentUpon>OrdenAlfabetico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

@@ -1,22 +1,31 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Collections;
+using System.Windows.Forms;
 
 namespace Tarea02.Capitulo08
 {
-    class Ejercicios_3_y_5
+    public partial class OrdenAlfabetico : Form
     {
-        //Hacer un programa que muestre la hora del día en formato AM/FM seguida del año, el día y el mes actual.
-
-        public static void Ejercicio03()
+        public OrdenAlfabetico()
         {
-            Console.WriteLine(DateTime.Now.ToString("hh:mm tt yyyy/dd/MM"));
+            InitializeComponent();
         }
 
-        //Hacer un programa que le solicite al usuario dos cadenas y luego las muestreen orden alfabético.
+        private void OrdenAlfabetico_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
+
+/*
+  //Hacer un programa que le solicite al usuario dos cadenas y luego las muestreen orden alfabético.
 
         public static void Ejercicio05()
         {
@@ -36,5 +45,4 @@ namespace Tarea02.Capitulo08
                 Console.WriteLine("{0}", cadena);
             }
         }
-    }
-}
+ */
