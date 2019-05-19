@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(386, 288);
+            this.ClientSize = new System.Drawing.Size(423, 265);
             this.Name = "Diccionario";
             this.Text = "Diccionario";
             this.Load += new System.EventHandler(this.Diccionario_Load);

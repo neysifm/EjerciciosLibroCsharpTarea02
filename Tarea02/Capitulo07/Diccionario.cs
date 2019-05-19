@@ -23,7 +23,6 @@ namespace Tarea02.Capitulo07
         }
     }
 }
-
 /*
   //Utilizar una tabla hash para crear un diccionario.
 
